@@ -85,12 +85,12 @@
     text-decoration: none;
     display: flex;
     margin: 16px 0 0;
-  }
 
-  &__buy:hover {
-    border: 1px solid $color-accent;
-    border-radius: 5px;
-    background-color: $color-border;
-    color: $color-accent;
+    &:hover {
+      border: 1px solid $color-accent;
+      border-radius: 5px;
+      background-color: $color-border;
+      color: $color-accent;
+    }
   }
 }
